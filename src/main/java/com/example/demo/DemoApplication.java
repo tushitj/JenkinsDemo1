@@ -17,7 +17,7 @@ public class DemoApplication {
     @RestController
     @RequestMapping("/api")
     public class ApiController{
-        @GetMapping("/welcome")
+        @GetMapping("/greetings")
         public String getGreetings(){
             return "hello from the api getGreetings";
         }
